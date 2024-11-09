@@ -15,11 +15,11 @@ public class LeapYearChecker extends JFrame {
 
         yearTextField = new JTextField();
         yearTextField.setBounds(50, 30, 200, 30);
-        yearTextField.setName("yearTextField"); // Set name for the component
+        yearTextField.setName("yearTextField"); 
 
         checkYearButton = new JButton("Check Year");
         checkYearButton.setBounds(100, 70, 100, 30);
-        checkYearButton.setName("checkYearButton"); // Set name for the component
+        checkYearButton.setName("checkYearButton"); 
 
         checkYearButton.addActionListener(new ActionListener() {
             @Override
